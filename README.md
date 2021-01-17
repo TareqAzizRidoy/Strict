@@ -1,0 +1,2 @@
+# Strict
+This is strict
