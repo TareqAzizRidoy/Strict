@@ -1,0 +1,383 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Lato', sans-serif;
+}
+
+/*global css code start*/
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.row{
+    width: 100%;
+    float: left;
+}
+
+.col-lg-12{
+    width: 100%;
+    float: left;
+}
+
+.col-lg-4{
+    width: 33.33%;
+    float: left;
+}
+
+.col-lg-6{
+    width: 50%;
+    float: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+/* global css end */
+
+/* header part start */
+
+.header-part{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+    background-color: #FDF5E6;
+}
+
+.logo{
+    width: 100%;
+    float: left;
+}
+
+/* banner part start */
+
+.banner{
+    width: 100%;
+    padding: 150px 0px 100px;
+    float: left;
+    background: url("../images/banner.png") center top no-repeat;
+    background-size: cover;
+}
+
+.inner-banner{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.inner-banner h1 {
+    font-size: 80px;
+    line-height: 90px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 82px;
+}
+
+.devider{
+    width: 50%;
+    margin: 20px auto;
+    height: 2px;
+    background-color: #15a4fa;
+}
+
+.inner-banner p{
+    font-size: 16px;
+    font-weight: 10px;
+    color: white;
+    margin-bottom: 50px;
+    padding: 10px 0px 30px;
+}
+
+.inner-banner .btn-info{
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 5px;
+    border: 2px solid #15a4fa;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    font-weight: 24px;
+    transition: 1s;
+}
+
+.inner-banner .btn-info:hover{
+    border: 2px solid #15a4fa;
+    background: #15a4fa;
+    color: rgb(0, 0, 0);
+}
+
+.banner .arrow{
+    width: 100%;
+    float: left;
+    padding: 130px 0px 0px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* banner part end */
+
+/* simple section start */
+
+.simple-pure {
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background:#FDF5E6;
+    text-align: center;
+}
+
+.simple-pure h1{
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.simple-pure p{
+    width: 70%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+}
+
+/* simple section end */
+
+/* feature section start */
+
+.feature {
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+}
+
+.feature .inner-feature{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.feature .inner-feature img{
+    margin-bottom: 10px;
+}
+
+.feature .inner-feature h4{
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.feature .inner-feature p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+}
+
+/* feature section end */
+
+/* portfolio section start */
+
+.portfolio {
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background: #FDF5E6;
+}
+
+.portfolio h1{
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.portfolio p{
+    width: 70%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* inner portfolio section start */
+
+.inner-portfolio {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.inner-portfolio .port-hover {
+    width: 95%;
+    height: 98%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba( 43, 170, 247, .6);
+    display: none;
+}
+
+.port-hover .icons{
+    position: absolute;
+    width: 100%;
+    top: 110px;
+    left: 140px;
+}
+
+.port-hover .icons img {
+    margin: 2px;
+}
+
+.inner-portfolio:hover .port-hover{
+    display: block;
+}
+
+/* portfolio section end */
+
+/* contact section start */
+
+.contact {
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+    background: url("../images/bg.png") center top no-repeat;
+    background-size: cover;
+}
+
+.contact h1{
+    font-size: 35px;
+    line-height: 50px;
+    color: #ffffff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.contact p{
+    width: 70%;
+    margin: auto;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 30px auto 0px;
+}
+
+.contact-form .form-group {
+    width: 100%;
+    float: left;
+    margin: 10px;
+}
+
+.contact-form .form-group .form-control {
+    width: 94%;
+    padding: 16px;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #999999;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.contact-form .form-group span {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.btn-info {
+    padding: 10px 35px;
+    background: transparent;
+    border: 2px solid #15a4fa;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.btn-info:hover {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #15a4fa;
+    cursor: pointer;
+}
+
+/* contact section end */
+
+/* footer part start */
+
+.footer {
+    width: 100%;
+    float: left;
+    padding: 25px 0px;
+    background-color: #FDF5E6;
+}
+
+.footer p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #999999;
+    margin-top: 7px;
+}
+
+.social-icon {
+    width: 100%;
+    float: left;
+    text-align: right;
+    margin-top: 3px;
+}
+
+.social-icon li {
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icon li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #15a4fa;
+    border-radius: 3px;
+    border: 2px solid #15a4fa;
+    color: #ffffff; 
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 2px;
+    transition: 1s;
+}
+
+.social-icon li a:hover {
+    font-size: 15px;
+    color: #000000;
+    background: transparent;
+    border: 2px solid #15a4fa;
+}
+
+/* footer part end */
